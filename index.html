@@ -51,8 +51,8 @@
   ...range(3).map((i) => `f${i}`),
   ...range(3).map((i) => `m${i}`),
 ].map((n) => ({
-  thumbnailURL: `./assets/avatars/${n}.png`,  // ローカルに保存したPNGファイル
-  avatarURL: `./assets/avatars/${n}.vrm`,    // ローカルに保存したVRMファイル
+  thumbnailURL: `https://github.com/VerseEngine/verse-three/blob/main/example/asset/avatar/${n}.png`,  // 公式のGithubから取得PNGファイル
+  avatarURL: `https://github.com/VerseEngine/verse-three/blob/main/example/asset/avatar/${n}.vrm`,    // 上に同じVRMファイル
 }));
 
   const DEFAULT_AVATAR_URL =
